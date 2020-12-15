@@ -59,7 +59,7 @@ p {
 }
 main {
   min-height: 100vh;
-  background: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+  background: url('./images/bg-pattern-desktop.svg') center/cover no-repeat;
 }
 
 /*
