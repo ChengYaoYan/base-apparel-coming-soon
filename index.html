@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>base-apparel-coming-soon</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" />
+        </div>
+        <div class="hero">
+          <img class="mobile" src="./images/hero-mobile.jpg" alt="" />
+          <img class="desktop" src="./images/hero-desktop.jpg" alt="" />
+        </div>
+        <div class="detail-wrapper">
+          <div class="detail">
+            <h2 class="title"><span>we're </span>coming soon</h2>
+            <p class="info">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date wih announcements
+              and our launch deals.
+            </p>
+            <div class="submit">
+              <input
+                class="email"
+                id="email-input-box"
+                type="text"
+                placeholder="Email Address"
+              />
+              <input type="submit" value="" id="submit-btn" class="btn"></button>
+              <!-- validate alert message -->
+              <p class="alert-text" id="alert-msg">
+                Please provide a valid email
+              </p>
+              <img
+                class="alert-flag"
+                id="alert-flag"
+                src="./images/icon-error.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="./validate.js"></script>
+  </body>
+</html>
